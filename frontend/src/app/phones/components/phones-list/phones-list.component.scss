@@ -1,0 +1,26 @@
+@import '../../theme/colors';
+
+:host {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid $lightGrey;
+    display: inline-block;
+}
+
+li{
+    padding: 9px 45px;
+    background-color: $focusBlue;
+    margin: 2px 0px;
+    color: white;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $staticBlue;
+    }
+}

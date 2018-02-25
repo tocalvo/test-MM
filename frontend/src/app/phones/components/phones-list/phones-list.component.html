@@ -1,0 +1,4 @@
+<ul class="phones-list">
+    <li *ngFor="let phone of phones" (click)="selectedPhone = phone" >{{phone.name}}</li>
+</ul>
+<testmm-phone-detail *ngIf="selectedPhone" [phone]="selectedPhone"></testmm-phone-detail>

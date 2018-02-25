@@ -1,0 +1,5 @@
+<h1>Nombre: {{phone.name}}</h1>
+<h2>Precio: {{phone.price}}{{phone.currency}}</h2>
+<p>{{phone.description}}</p>
+<p>Color:{{phone.color}}</p>
+<img [defaultImage]="'assets/images/square-loader.gif'" [lazyLoad]="imagesUrl + phone.image">

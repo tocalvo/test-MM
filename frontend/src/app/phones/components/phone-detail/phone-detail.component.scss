@@ -1,0 +1,10 @@
+@import '../../theme/colors';
+
+:host{
+    display: block;
+    margin: 10px;
+    padding:10px;
+    border: 1px solid $lightGrey;
+    background-color: #b7b8b969;
+    border-radius: 10px;
+}
